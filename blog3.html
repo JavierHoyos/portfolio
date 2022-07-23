@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Web Vitals</title>
+    <link rel="stylesheet" href="blog3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="blog3">
+        <div class="blog-text3" id="core-vitals">
+            <br><br>
+            <h1>Core Web Vitals ¿Por qué son tan importantes estas métricas de Google?</h1>
+            <br>
+            <img src="img/Core+Web+Vitals.jpeg" alt="">
+            <br><br>
+            <p>La mayoría de los buscadores intentan mejorar de manera constante los resultados que arroja a sus usuarios y al mismo tiempo, los datos que puede analizar las personas que trabajan en el mundo del marketing. Y es por eso que es muy importante crear una experiencia de usuario agradable haciendo que la búsqueda sea rápida y efectiva.</p>
+
+            <p>Tal es el caso del buscador de Google, el cual premia a los creadores de contenido (content marketing) que optimicen sus páginas de manera correcta. Y esto es posible gracias a Web Vitals, el cual se encarga de analizar tu sitio web y darte resultados (ya sean que debes mejorar el performance de tu sitio web o si lo estás haciendo de una buena manera).</p>
+            <br><br>
+
+            <h2>¿Qué son los Core Web Vitals?</h2>
+            <br>
+            <p>Google tiene una herramienta, la cual ayuda a los administradores de los sitios web a tener una información exacta sobre tu sitio web (medición de aspectos técnicos) y como estos pueden afectar la experiencia que tenga el usuario (performance en los primeros segundos de la experiencia de usuario).</p>
+            <br>
+            <p>A continuación, voy a explicar sobre las métricas importantes de esta herramienta:</p>
+            <br>
+            <ul>
+                <li><b>Largest Contentful Paint</b> (LCP): tiempo de carga del elemento de mayor peso de la página.</li>
+                <br>
+                <li><b>First Input Delay</b> (FID): momento el cual los usuarios pueden empezar a interactuar con la página</li>
+                <br>
+                <li><b>Cumulative Layout Shift</b> (CLS): tiempo de desplazamiento del diseño durante la carga.</li>
+            </ul>
+            <br><br>
+            <h3>Largest Contentful Paint (LCP)</h3>
+            <br>
+            <p>Google utiliza el LPC para calcular cuándo se muestra al usuario el mayor bloque de contenido visible (representación visual, no de volumen de datos).</p>
+            <br>
+            <p>Un ejemplo sería que un elemento más grande (ya sea texto, imágenes o vídeos) cargue al final, pero que también al mismo tiempo sea el contenido principal de la página. Esto obviamente hace que Google se haga la idea del tiempo que tardan tus usuarios en leer o interactuar con tu sitio web.</p>
+            <br>
+            <p>Y por último (de esta métrica) y un dato no menor, es que Google establece 2,5 segundos desde que tu usuario accede a tu página hasta ver el <b>Largest Contentful Paint</b>.</p>
+            
+            <br><br>
+            <h3>First Input Delay (FID)</h3>
+            <br>
+            <p>El First Input Delay indica el tiempo que transcurre entre la primera interacción del visitante y la respuesta del sitio web. Por ejemplo, se puede tratar desde un intento de inicio de sesión hasta el dar un clic en un enlace. Y es por eso, que los servidores deben procesar la entrada de manera eficiente.</p>
+            <br>
+            <p>No obstante, la velocidad del servidor (donde está tu sitio web) no es el único factor para alcanzar un buen puntaje en FID: sino que los webmasters no deben perder de vista los navegadores de los usuarios (si el software está ocupado con otras tareas, entonces no procesará la entrada). Por ende, se podría decir que el puntos menos fuerte son los archivos JavaScript de gran tamaño, ya que hacen el proceso más lento de lo estándar, debido que mantienen al navegador ocupado por un tiempo prolongado.</p>
+            <br>
+            <p>Según recomendaciones de Google, deben pasar alrededor de unos 100 milisegundos entre que el usuario inicia la interacción con el sitio web y que el cambio sea visible en tu dispositivo tecnológico (en la pantalla de tu navegador).</p>
+            <br><br>
+            <h3>Cumulative Layout Shift (CLS)</h3>
+            <br>
+            <p>Desafortunadamente, se tiene la creencia de que, si tu sitio web carga de manera que los usuarios puedan usarlas antes de aparecer el último elemento del navegador, pues tiene grandes ventajas LCP (algo que es cierto), pero puede también hacer que el diseño desplace (los llamados saltos de los elementos) provocando que los usuarios se confundan al intentar leer o hacer clic involuntariamente en el elemento erróneo.</p>
+            <br>
+            <p>Pero no te confundas, no solamente observa cuántas veces se mueve el elemento y la frecuencia, sino que además puede registrar la distancia a la que se mueven. (con todo esto el navegador puede y calcula el <b>Cumulative Layout Shift</b>).</p>
+            <br>
+            <p>Según recomendaciones de Google, un CLS de 0,1 es positivo. Mas si el valor está muy por encima del anterior mencionado, entonces deberías muy seriamente optimizar tu sitio web.</p>
+            <br><br>
+            <h2>Informes</h2>
+            <br>
+            <p>Por otro lado, Google crea mediante los datos del mismo navegador, un informe de experiencia de usuario. Estos datos evaluados se analizan en dos categorías principalmente:</p>
+            <br>
+            <ul>
+                <li>Dispositivos móviles</li>
+                <br>
+                <li>Ordenadores (computadora, Laptops).</li>
+            </ul>
+            <br>
+            <p>Este informe muestra una puntuación (un valor resumido) que incluye alrededor del 75% de las visitas a tu página web. Es importante recordar, que cada usuario tiene una experiencia diferente al momento de acceder a tu sitio web, y es por eso que deseas que tu usuario/posible usuario tenga la mayor experiencia posible.</p>
+
+            <br><br>
+            <h2>¿Por qué son las Core Web Vitals tan importantes?</h2>
+            <br>
+            <p>Actualmente, existe mucha menos gente ingresando a las páginas web que no aparecen en las primeras páginas del navegador. Y esto es debido a su baja calidad desde el contenido hasta lo técnico del sitio web, pero, aun así, Google intenta ayudar a los expertos en SEO a realizar una página web de calidad, a través de Core Web Vitals, el cual presenta valores concretos para que los desarrolladores web puedan hacer un mejor rendimiento al sitio web.</p>
+            <br>
+            <p>Eso sí, cabe resaltar que no se conocen oficialmente con exactitud todos los factores que influyen en el ranking de Google, pero con Core Web Vitals de Google puedes ayudarte a tener un mejor rendimiento y posicionamiento.</p>
+
+            <br><br>
+            <h2>Resumen</h2>
+            <br>
+            <p class="parrafo-final">En resumen, si quieres tener un buen SRRP en tu motor de búsqueda, entonces no dudes en usar Core Web Vitals de Google. te aseguro que no te arrepentirás.</p>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="control control-1 active-btn">
+            <a href="index.html#presentation"><i class="fas fa-home"></i></a>
+        </div>
+    </div>
+
+
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+
+
+    <script src="light-blog3.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
