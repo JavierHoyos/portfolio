@@ -1,10 +1,522 @@
 
-
+/*
 @media screen and (max-width: 600px) {
     header{
         padding: 0;
     }
     header .right-header{
         padding: 0;
+    }
+}*/
+/*
+@media screen and (min-width: 320px){
+    .about-stats{
+        padding-bottom: 4rem;
+        background-color: aqua;
+        width: 100%;
+    }
+}*/
+
+
+@media screen and (prefers-reduced-motion: no-preference){
+    html{
+        scroll-behavior: auto;
+    }
+}
+
+
+/*   Pantallas pequeñas - modo vertical */
+
+@media screen and (max-width: 20em) {
+
+
+    .right-header{
+        padding-right: 70px;
+        padding-left: 60px;
+        min-width: 350px;
+    }
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name{
+        font-size: 3rem;
+        min-width: 240px;
+        margin-left: 4px;
+    }
+
+
+    .info-personal{
+        margin-right: 17px;
+        margin-left: 30px;
+    }
+    
+    .prog-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .progress-con{
+        margin-left: 40px;
+        margin-right: 60px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 250px;
+    }
+
+    .timeline{
+        min-width: 260px;
+    }
+
+    .tl-duration{
+        margin-right: 35px;
+    }
+
+    .timeline h5{
+        margin-right: 35px;
+    }
+
+    .timeline-item .description{
+        margin-right: 35px;
+    }
+
+    /* Blog section */
+    
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 280px);
+        grid-gap: 1.5rem;
+        margin: 20px;
+    }
+    
+    .blog img{
+        margin: 0;
+    }
+
+    .blog-text h1{
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+    .blog-text p{
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+
+    .main-title h2{
+        min-width: 200px;
+    }
+
+
+    .left-contact{
+        padding: 10px;
+    }
+
+    .right-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .input-control input, textarea{
+        min-width: 100px;
+    }
+    
+    
+}
+
+
+/*   Pantallas pequeñas - modo vertical */
+
+@media screen and (min-width: 20em) and (orientation: portrait){
+
+
+    .right-header{
+        padding-right: 70px;
+        padding-left: 60px;
+        min-width: 350px;
+    }
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name{
+        font-size: 3rem;
+        min-width: 240px;
+        margin-left: 4px;
+    }
+
+
+
+    
+    .prog-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .progress-con{
+        margin-left: 40px;
+        margin-right: 60px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 250px;
+    }
+
+    .timeline{
+        min-width: 260px;
+    }
+
+    .tl-duration{
+        margin-right: 35px;
+    }
+
+    .timeline h5{
+        margin-right: 35px;
+    }
+
+    .timeline-item .description{
+        margin-right: 35px;
+    }
+
+    /* Blog section */
+    
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 290px);
+        grid-gap: 1.5rem;
+        margin: 20px;
+    }
+    
+    .blog img{
+        margin: 0;
+    }
+
+    .blog-text h1{
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+    .blog-text p{
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+
+
+    .main-title h2{
+        min-width: 200px;
+    }
+
+
+    .left-contact{
+        padding: 10px;
+    }
+
+    .right-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .input-control input, textarea{
+        min-width: 100px;
+    }
+}
+
+
+
+
+/*   Pantallas pequeñas - modo horizontal     */
+
+@media screen and (min-width: 30em){
+    section{
+        background-color: red;
+    }
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1.5rem;
+    }
+
+
+
+    .right-header{
+        padding-right: 100px;
+        padding-left: 94px;
+        min-width: 350px;
+    }
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name{
+        font-size: 3rem;
+        min-width: 240px;
+        margin-left: 4px;
+    }
+
+    .info-personal{
+        min-width: 290px;
+    }
+
+    
+    
+    .timeline{
+        padding: 50px;
+    }
+
+    /* Blog section */
+    
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        grid-gap: 1.5rem;
+    }
+    
+    .blog img{
+        margin: 0;
+    }
+
+    .blog-text h1{
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+    .blog-text p{
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+
+    .left-contact{
+        padding: 20px;
+    }
+
+    .right-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .input-control input, textarea{
+        min-width: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*    Tablets pequeñas - modo vertical  */
+
+@media screen and (min-width: 37.5em){
+    section{
+        background-color: goldenrod;
+    }
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-header{
+        padding-right: 22rem;
+        padding-left: 22rem;
+    }
+
+    .btn-con{
+        min-width: 230px;
+    }
+
+    .left-contact{
+        padding: 30px;
+    }
+
+    .left-contact h4{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-item{
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
+
+/*  Tablets de diez pulgadas - modo vertical*/
+
+@media screen and (min-width: 48em){
+    section{
+        background-color: blue;
+    }
+    
+    .blogs{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-text{
+        margin: 0;
+        padding: 0;
+        width: 500px;
+    }
+
+    .blog-text h1{
+        margin: 0;
+    }
+
+    .blog-text p{
+        padding: 0;
+        margin: 0;
+    };
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+     /*  Contact section  */
+    
+
+     .contact-content-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog{
+        padding-bottom: 10px;
+    }
+}
+
+
+/*  Tablets como el ipad - modo horizontal   */
+
+@media screen and (min-width: 64em){
+    
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-header{
+        padding-right: 32rem;
+        padding-left: 22rem;
+    }
+
+    
+
+    .tl-duration{
+        margin-right: 35px;
+    }
+
+    
+
+    .timeline h5{
+        margin-right: 35px;
+    }
+
+    /*
+    .timeline-item{
+        width: 600px;
+    }*/
+
+
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog{
+        padding-bottom: 10px;
+    }
+
+
+    /*  Contact section  */
+    
+
+    .contact-content-container{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+/*   Pantallas panorámicas, principalmente portátiles y de escritorio  */
+
+@media screen and (min-width: 75em){
+    section{
+        background-color: blueviolet;
+    }
+
+    .right-header{
+        padding-right: 52rem;
+        padding-left: 52rem;
+    }
+
+    .left-contact{
+        padding: 0;
+        margin-left: 200px;
+    }
+
+    .right-contact{
+        /*border: 5px solid brown;*/
+        margin-right: 200px;
+    }
+
+    .contact-content-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .timeline-item{
+        width: 1040px;
+        padding: 70px;
     }
 }
