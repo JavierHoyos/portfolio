@@ -6,26 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="main-content">
+    <!--<nav class="nav">
+        <a href="" class="logo">Logo</a>
+        <button class="nav-toggle">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul class="nav-menu nav-menu_visible">
+            <li class="nav-menu-item "><a href="#" class="nav-menu-link" data-id="home">Home</a></li>
+            <li class="nav-menu-item " ><a href="#" class="nav-menu-link">Sobre mí</a></li>
+            <li class="nav-menu-item "><a href="#" class="nav-menu-link" >Blog</a></li>
+            <li class="nav-menu-item "><a href="#contact" class="nav-menu-link nav-menu-link_active">Contacto</a></li>
+        </ul>
+    </nav>-->
+
+    
     <header class="section sec1 header active" id="home">
-        <a href="https://www.linkedin.com/in/hoyosjavier56/"><i class="fab fa-linkedin"></i></a>
+        <!--<a href="https://www.linkedin.com/in/hoyosjavier56/"><i class="fab fa-linkedin"></i></a>-->
         <!--<i class="fab fa-instagram"></i>-->
 
+        <nav class="nav">
+           <!---<a href="" class="logo">Logo</a>-->
+            <button class="nav-toggle">
+                <i class="fa fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item " ><a href="#" class="nav-menu-link"data-id="about" >Sobre mí</a></li>
+                <li class="nav-menu-item "><a href="#" class="nav-menu-link" data-id="blogs">Blog</a></li>
+                <li class="nav-menu-item "><a href="#" class="nav-menu-link nav-menu-link_active" data-id="contact">Contacto</a></li>
+            </ul>
+        </nav>
+
         <br><br><br><br><br><br>
-        <div class="header-content">
+       <div class="header-content">
             <div class="left-header">
                 <div class="h-shape">
                     <img src="img/Diseño sin título (6).png" alt="">
                 </div>
             </div>
+
+
+
             <div class="right-header">
-                <h1 class="name">Hola, soy <span>Javier Hoyos.</span></h1>
+                <h1 class="name">Hola, soy Javier Hoyos.</h1>
 
                     <p class="info-personal">Soy Trafficker especializado en Google Ads (SEM) y conocimientos 
                         básicos de SEO. Proyectado al aprendizaje continuo, siempre estoy dispuesto a 
@@ -44,86 +75,94 @@
             </div>
         </div>
     </header>
-        <main>
-            <section class="section sec2 about" id="about">
-                <div class="about-container">
-                    <div class="about-stats" id="about1">
-                        <h4 class="stat-title">Mi Skills</h4>
-                        <div class="progress-bars">
-                            <div class="progress-bar">
-                                <p class="prog-title">Especialista SEM</p>
-                                <div class="progress-con">
-                                    <p class="prog text">90%</p>
-                                    <div class="progress">
-                                        <span class="sem"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
     
-                        <div class="progress-bars">
-                            <div class="progress-bar">
-                                <p class="prog-title">Especialista SEO</p>
-                                <div class="progress-con">
-                                    <p class="prog text">90%</p>
-                                    <div class="progress">
-                                        <span class="seo"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+
+
     
-                        <div class="progress-bars">
-                            <div class="progress-bar">
-                                <p class="prog-title">Content Marketing</p>
-                                <div class="progress-con">
-                                    <p class="prog text">90%</p>
-                                    <div class="progress">
-                                        <span class="content-marketing"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="progress-bars">
-                            <div class="progress-bar">
-                                <p class="prog-title">WordPress</p>
-                                <div class="progress-con">
-                                    <p class="prog text">90%</p>
-                                    <div class="progress">
-                                        <span class="wordpress"></span>
-                                    </div>
+
+
+    <main>
+        <section class="section sec2 about" id="about">
+            <div class="about-container">
+                <div class="about-stats" id="about1">
+                    <h4 class="stat-title">Mi Skills</h4>
+                    <div class="progress-bars">
+                        <div class="progress-bar">
+                            <p class="prog-title">Especialista SEM</p>
+                            <div class="progress-con">
+                                <p class="prog text">90%</p>
+                                <div class="progress">
+                                    <span class="sem"></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <h4 class="stat-title">Mi experiencia</h4>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-icon">
-                                <i class="fas fa-briefcase"></i>
+
+                    <div class="progress-bars">
+                        <div class="progress-bar">
+                            <p class="prog-title">Especialista SEO</p>
+                            <div class="progress-con">
+                                <p class="prog text">90%</p>
+                                <div class="progress">
+                                    <span class="seo"></span>
+                                </div>
                             </div>
-                            <p class="tl-duration">28 de febrero del 2022 - 06 de mayo del 2022</p>
-                            <h5>Content marketing intern <span>Global Commerce Media GmbH</span></h5>
-                            <p class="description">Global Commerce Media es una agencia de marketing digital que apoya a sus clientes en la
-                                implementación estratégica y operativa de exitosas campañas de marketing digital.
-                                Utilizamos los canales de marketing digital más importantes, como la optimización de
-                                motores de búsqueda (SEO), el marketing de afiliación, el marketing de redes sociales, el
-                                marketing de contenidos y el PPC, entre otros.</p>
                         </div>
                     </div>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-icon">
-                                <i class="fas fa-briefcase"></i>
+
+                    <div class="progress-bars">
+                        <div class="progress-bar">
+                            <p class="prog-title">Content Marketing</p>
+                            <div class="progress-con">
+                                <p class="prog text">90%</p>
+                                <div class="progress">
+                                    <span class="content-marketing"></span>
+                                </div>
                             </div>
-                            <p class="tl-duration">noviembre del 2021 - febrero del 2022</p>
-                            <h5>Junior Achievement <span>Saint Lucia Alumni</span></h5>
-                            <p class="description" >Google, en colaboración con Junior Achievement, lanzó el programa "Crece con Google para Jóvenes 2021-2022" que capacita a 5.000 jóvenes de Colombia, Chile, México y Perú en marketing digital y habilidades blandas.</p>
+                        </div>
+                    </div>
+
+                    <div class="progress-bars">
+                        <div class="progress-bar">
+                            <p class="prog-title">WordPress</p>
+                            <div class="progress-con">
+                                <p class="prog text">90%</p>
+                                <div class="progress">
+                                    <span class="wordpress"></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+                <h4 class="stat-title">Mi experiencia</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">28 de febrero del 2022 - 06 de mayo del 2022</p>
+                        <h5>Content marketing intern <span>Global Commerce Media GmbH</span></h5>
+                        <p class="description">Global Commerce Media es una agencia de marketing digital que apoya a sus clientes en la
+                            implementación estratégica y operativa de exitosas campañas de marketing digital.
+                            Utilizamos los canales de marketing digital más importantes, como la optimización de
+                            motores de búsqueda (SEO), el marketing de afiliación, el marketing de redes sociales, el
+                            marketing de contenidos y el PPC, entre otros.</p>
+                    </div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">noviembre del 2021 - febrero del 2022</p>
+                        <h5>Junior Achievement <span>Saint Lucia Alumni</span></h5>
+                        <p class="description" >Google, en colaboración con Junior Achievement, lanzó el programa "Crece con Google para Jóvenes 2021-2022" que capacita a 5.000 jóvenes de Colombia, Chile, México y Perú en marketing digital y habilidades blandas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
             <section class="section sec3" id="blogs">
                 <div class="blogs-content">
@@ -163,6 +202,7 @@
                             </a>
                         </div>
                     </div>
+                </section>
                     <br><br><br><br>
                     
             
@@ -234,7 +274,7 @@
                     
 
                         <div class="right-contact">
-                            <form action="" class="contact-form">
+                            <form action="" name="formulario" class="contact-form" method="get">
                                 <div class="input-control i-c-two">
                                     <input type="text" required placeholder="Tu nombre">
                                 
@@ -244,12 +284,13 @@
                                     <input class="business" type="text" required placeholder="Ingrese el asunto">
                                 </div>
                                 <div class="input-control">
-                                    <textarea name="" id="" cols="20" rows="10" placeholder="Escriba aquí..."></textarea>
+                                    <textarea name="" id="" cols="20" rows="10" placeholder="Escriba aquí..." required></textarea>
                                 </div>
                                 <div class="submit-btn">
+
                                     <a href="#" class="main-btn">
                                         <span class="btn-text">Enviar</span>
-                                    </a>
+                                    </a> 
                                 </div>
                                 <br><br><br>
                             </form>
@@ -259,7 +300,12 @@
             </section>
         </main>
     
-        <div class="controls">
+       <!--<div class="controls controls_visible">
+            <button class="control toggle">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            
             <div class="control control-1" data-id="home">
                 <i class="fas fa-home"></i>
             </div>
@@ -272,12 +318,20 @@
             <div class="control control-4" data-id="contact">
                 <i class="fas fa-envelope-open"></i>
             </div>
-        </div>
+        </div>-->
 
         <div class="theme-btn">
             <i class="fas fa-adjust"></i>
         </div>
 
+        <script>
+            (function(){
+                var formulario = forms
+            }())
+        </script>
+        
+        <script src="menu.js"></script>
+        <script src="form.js"></script>
         <script src="app.js"></script>
 </body>
 </html>
