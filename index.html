@@ -273,24 +273,30 @@
                         </div>
                     
 
+                      
                         <div class="right-contact">
-                            <form action="" name="formulario" class="contact-form" method="get">
+                            <form action="" name="formulario" class="contact-form">
                                 <div class="input-control i-c-two">
-                                    <input type="text" required placeholder="Tu nombre">
+                                    <input type="text" name="nombre" id="nombre" required placeholder="Tu nombre">
                                 
-                                    <input class="correo"  type="email" required placeholder="Tu correo">
+                                    <input class="correo"  type="email" name="email" id="email" required placeholder="Tu correo">
                                 </div>
                                 <div class="input-control">
-                                    <input class="business" type="text" required placeholder="Ingrese el asunto">
+                                    <input class="business" type="text" name="tema" id="tema" required placeholder="Ingrese el asunto">
                                 </div>
                                 <div class="input-control">
-                                    <textarea name="" id="" cols="20" rows="10" placeholder="Escriba aquí..." required></textarea>
+                                    <textarea name="mensaje" id="mensaje" cols="20" rows="10" placeholder="Escriba aquí..." required></textarea>
                                 </div>
                                 <div class="submit-btn">
+                                    <input id="enviarCorreo" type="submit" value="Enviar">
 
-                                    <a href="#" class="main-btn">
+                                    
+                                    <!--<a href="mailto:hoyosjavier56@gmail.com?" class="main-btn">
                                         <span class="btn-text">Enviar</span>
-                                    </a> 
+                                    </a> -->
+                                </div>
+                                <div class="reset-btn">
+                                    <input type="reset" value="Borrar">
                                 </div>
                                 <br><br><br>
                             </form>
