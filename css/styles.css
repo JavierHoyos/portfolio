@@ -670,10 +670,12 @@ border-radius: 50%;
     padding: .8rem ;
     outline: none;
     border: none;
-    background-color: var(--color-grey-5);
+    /*background-color: var(--color-grey-5);*/
+    background-color: #2a2e35;
     width: 100%;
     resize: none;
     gap: 10px;
+    color: #fff;
 }
 
 
